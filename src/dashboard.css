@@ -1,0 +1,149 @@
+.full-page{
+    text-align: center;
+    max-height: 600px;
+  }
+  .left-part{
+    position: fixed;
+    top:10px;
+    left:10px;
+    width: 50px;
+    text-align: center;
+    font-size: smaller;
+    width: max-content;
+  }
+  .admin-part {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding:5px;
+    margin-bottom: 5px;
+  }
+  
+  .admin-part img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+  }
+  
+  .name{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .left-navigation{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(238, 210, 173);
+    border: 1px solid rgb(238, 210, 173);
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .link{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link:hover{
+    color: blue;
+  }
+  
+  .main-part{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    gap:0px;
+  }
+  
+  .main-part h1{
+    grid-row: 1;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  
+  .requests{
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 30%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .num{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .img-area img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 0;
+  }
+  
+  .img-area p{
+    font-size: 15px;
+  }
+  
+  .time-location{
+    grid-row: 3;
+    padding-left: 25%;
+    padding-top: 0;
+    width: max-content;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .one{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+  }
+  
+  .one p{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    color: white;
+    padding :8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .approve-button {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .approve-button:hover{
+    background-color: black;
+  }
+  .cancel-button:hover{
+    background-color: black;
+  }
+  .img-button{
+    border: 2px solid white;
+    cursor: pointer;
+  }
